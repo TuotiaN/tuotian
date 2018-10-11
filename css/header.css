@@ -1,0 +1,79 @@
+/*=======================header=================*/
+header{
+    width:100%;
+    height:662px;
+      }
+header .box{
+    width:100%;
+    height:615px;
+    position: relative;
+}
+#lbt{
+    position:absolute;
+    width:100%;
+    height:615px;
+    overflow: hidden;
+}
+header .navBox{
+    position: relative;
+    height:162px;
+    z-index: 2;
+    top:7px;
+    left:80px;
+}
+header .navBox h1{
+    width:154px;
+    height:155px;
+    margin-top:14px;
+
+}
+header .navBox a{
+    width:154px;
+    height:155px;
+    display:block;
+
+    }
+header .navBox .navul{
+    width:768px;
+    height:36px;
+    line-height:36px;
+    margin-left:34px;
+    border-bottom:1px solid #bac4d2;
+} 
+header .navBox .navul li{
+    width:56px;
+    height:36px;
+    padding-right:20px;
+    font-size:14px;
+    position: relative;
+}
+header .navBox .erji{
+    height:0px;
+    background:orange;
+    position: absolute;
+    top:36px;
+    display: none;
+}
+header .navBox .navul li a{
+    display: block;
+    width:56px;
+    height:100%;
+    color:#fff;
+}
+header .navBox .navul li a:hover{
+    color:orange;
+}
+header .navBox .navul .r{
+    width:12px;
+}
+header .navBox .navul .r a{
+    width:12px;
+    height:18px;
+}
+header .navBox .navul li:nth-of-type(8){
+    background: url("../img/首页/zoom.png") no-repeat center;
+}header .navBox .navul li:nth-of-type(9){
+    background: url("../img/首页/buycart.png") no-repeat center;
+}header .navBox .navul li:nth-of-type(10){
+    background: url("../img/首页/person.png") no-repeat center;
+}
