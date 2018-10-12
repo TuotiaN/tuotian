@@ -1,4 +1,5 @@
 /*=======================header=================*/
+/*
 header{
     width:100%;
     height:662px;
@@ -77,3 +78,79 @@ header .navBox .navul li:nth-of-type(8){
 }header .navBox .navul li:nth-of-type(10){
     background: url("../img/首页/person.png") no-repeat center;
 }
+*/
+
+
+
+
+header{
+    height:678px;
+    overflow: hidden;
+    position: relative;
+}
+header .headall{
+    height:678px;
+    width:1418px;
+    overflow: hidden;
+
+}
+header #lbt{
+    height:615px;
+}
+header nav{
+    width:100%;
+    height: 180px;
+    position: absolute;
+    top:0;
+}
+header nav .w{
+    height:180px;
+}
+header .w h1{
+    width:160px;
+    height:160px;
+    display:inline-block;
+    margin-top:10px;
+    background:url("../img/首页/logo.png") no-repeat;
+    background-size:160px 160px;
+}
+header .navul{
+    float:right;
+    height:36px;
+    margin-top:7px;
+    line-height:36px;
+    border-bottom:1px solid #bac4d2;  
+}
+header .navul .l{
+   padding-right:20px;
+}
+header .navul .r{
+    width:30px;
+    height:36px;
+}
+header .navul li a{
+    display:block;
+    border-bottom:0;
+}
+header .navul .r a{
+    width:30px;
+    height:36px;
+}
+header .navul li:nth-of-type(10){
+    margin-left:160px;
+}
+header .navul li:nth-of-type(8) a{
+    background: url("../img/首页/zoom.png") no-repeat center;
+}
+header .navul li:nth-of-type(9) a{
+    background: url("../img/首页/buycart.png") no-repeat center;
+}
+header .navul li:nth-of-type(10) a{
+    background: url("../img/首页/person.png") no-repeat center;
+}
+ 
+
+
+
+
+

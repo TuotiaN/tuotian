@@ -9,17 +9,19 @@ img{
 body{
     font-size:12px;
     color:#333; 
-    font-family:"微软雅黑"}
+    font-family:"微软雅黑";
+}
 a{ 
     text-decoration:none;
     color:#666;}
 a:hover{
-    color:#f60;
+    border-bottom:1px solid #666;
     }
 /*========================public================*/
 .w{ 
-    width:935px; 
-    margin:0 auto;}
+    width:940px; 
+    margin:0 auto;
+}
 .l{ 
     float:left;
   }

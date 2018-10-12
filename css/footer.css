@@ -1,83 +1,86 @@
-footer{
-    width:100%;
-    height:165px;
-    background: #f2f2f2;
-}
 /*------------------------------footer1-------------------------*/
-footer .footer1{
+.footer1{
     height:115px;
     padding:25px 0;
+    background:#f2f2f2;
 }
-footer .footer1 ul{
-    width:155px;
+.footer1 .w  ul{
     height:112px;
     border-right:1px dashed #ccc;
-
+    width:155px;
 }
-footer .footer1 .ul6{
+.footer1 .w .ul6{
     border-right:0;
 }
-footer .footer1 ul li{
+.footer1 .w ul li{
     height:28px;
     line-height:28px;
     font-size:12px;
     text-align: center;
-    
 }
 /*-----------------------------------footer2-------------------------*/
-footer .footer2{
+.footer2{
     height:289px;
     padding:28px 0;
 }
-footer .footer2 h3{
+.footer2 h3{
     font-size: 16px;
     color: #999999;
 }
-footer .footer2 ul{
+.footer2 ul{
      float: left;
      width:137px;
      
 }
-footer .footer2 ul li{
+.footer2 ul li{
     height:29px;
     line-height:29px;
 }
+.wu{
+    color:#337deb;
+    font-weight:bold;
 
+}
 /*------------------------------------footer3------------------------*/
-footer .footer3{
+.footer3{
     height:300px;
-    background:#04277d;
     position: relative;
     overflow: hidden;
 
 }
-footer .footer3 .w .tubiao{
+.footer3 .w .tubiao{
     width:80px;
     height:102px;
     background:url("../img/首页/philips-footer-logo.png") no-repeat;
     margin:45px auto;
 }
-footer .footer3 .footer3box1{
+.footer3 .footer3box1{
     position: absolute;
     color:white;
     top:76px;
     right:250px;
 }
-footer .footer3 .footer3box1 a{
+.footer3 .footer3box1 a{
     color:white;
 }
-footer .footer3 .footer3box2{
+.footer3 .footer3box2{
     height:66px;
+    line-height:22px;
     text-align: center;
 }
-footer .footer3 .footer3box2 ul li{
+.footer3 .footer3box2 ul li{
     display:inline-block;
-
-}
-footer .footer3 .footer3box2 ul li a{
-    color:white;
+    height:16px;
+    line-height:16px;
     border-right:1px solid white;
 }
-footer .footer3 .footer3box2 p{
+.footer3 .footer3box2 ul li a{
     color:white;
+    margin:0 4px;
+}
+.footer3 .footer3box2 p{
+    color:white;
+}
+.tonglan2{
+    background:#04277d;
 }

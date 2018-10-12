@@ -29,7 +29,6 @@ function Slider(
 Slider.prototype.createUI= function(){
 	this.$box.css({
 		position:"relative",
-		overflow:"hidden"
 	});
 	
 	//1、创建所有的图片
@@ -59,8 +58,8 @@ Slider.prototype.createUI= function(){
 	let $ul = $("<ul></ul>");
 	$ul.css({
 		position:"absolute",
-		right:"50px",
-		bottom:"10px",
+		right:"700px",
+		bottom:"-32px",
 		"list-style":"none",
 		"z-index":2
 	});
