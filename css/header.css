@@ -144,7 +144,17 @@ header .navul li:nth-of-type(8) a{
 }
 header .navul li:nth-of-type(9) a{
     background: url("../img/首页/buycart.png") no-repeat center;
+    position: relative;
 }
+header nav .w .navul li:nth-of-type(9) a p{ 
+    width:19px;
+    height:13px;
+    position: absolute;
+    bottom:0;
+    left:9px;
+    background:url("../img/首页/num-new.png") no-repeat;
+}
+
 header .navul li:nth-of-type(10) a{
     background: url("../img/首页/person.png") no-repeat center;
 }

@@ -1,0 +1,116 @@
+@charset "utf-8";
+body{
+    background:url("../img/首页/bg.jpg") no-repeat;
+    background-size:cover;
+
+}
+#header{
+    width: 100%;
+    height:170px;
+    .w{
+        margin-top:20px;
+        height:150px;
+        h1{
+            width:150px;
+            height:150px;
+            background: url("../img/首页/logo.png");
+        }
+        .navul{
+            float:right;
+            height:36px;
+            margin-top:7px;
+            line-height:36px;
+            border-bottom:1px solid #bac4d2;  
+                .l{
+                padding-right:20px;
+                }
+                .r{
+                    width:30px;
+                    height:36px;
+                }
+                li a{
+                    display:block;
+                    border-bottom:0;
+                }
+                .r a{
+                    width:30px;
+                    height:36px;
+                }
+                li:nth-of-type(10){
+                    margin-left:160px;
+                }
+                li:nth-of-type(8) a{
+                    background: url("../img/首页/zoom.png") no-repeat center;
+                }
+                li:nth-of-type(9) a{
+                    background: url("../img/首页/buycart.png") no-repeat center;
+                    position: relative;
+                }
+                li:nth-of-type(9) a p{ 
+                    width:19px;
+                    height:13px;
+                    position: absolute;
+                    bottom:0;
+                    left:9px;
+                    background:url("../img/首页/num-new.png") no-repeat;
+                }
+
+                li:nth-of-type(10) a{
+                    background: url("../img/首页/person.png") no-repeat center;
+                }
+        }
+
+    }
+}
+/*===================================main===============*/
+main{ 
+    overflow: hidden;
+    height:600px;
+        h2{
+            width:100%;
+            height:76px;
+            line-height:76px;
+            background:#1a4d8e;
+            color:white;
+            padding-left:40px;
+        }
+        .mp1{
+            width:100%;
+            height:50px;
+            line-height:50px;
+            background:#b5c8e4;
+            color:black;
+            padding-left:40px;
+        }
+        .mdiv{
+            overflow: hidden;
+            height:438px;
+            background:white;
+            form{
+                margin-top:64px;
+                padding:0 300px;
+                input{
+                    width:340px;
+                    height:50px;
+                }
+                .text1{
+                    margin-bottom: 12px;
+                }
+                .text2{
+                    margin-bottom: 24px;
+                }
+                .button{
+                    width:342px;
+                    background:#2365a1;
+                    border:0;
+                }
+                p{
+                    height:40px;
+                    a{
+                        color:#2365a1
+                    }
+                }
+            }
+        }
+
+}
