@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background:url("../img/首页/bg.jpg") no-repeat;
+    background:url("../../img/首页/bg.jpg") no-repeat;
     background-size:cover;
 
 }
@@ -13,7 +13,7 @@ body{
         h1{
             width:150px;
             height:150px;
-            background: url("../img/首页/logo.png");
+            background: url("../../img/首页/logo.png");
         }
         .navul{
             float:right;
@@ -40,10 +40,10 @@ body{
                     margin-left:160px;
                 }
                 li:nth-of-type(8) a{
-                    background: url("../img/首页/zoom.png") no-repeat center;
+                    background: url("../../img/首页/zoom.png") no-repeat center;
                 }
                 li:nth-of-type(9) a{
-                    background: url("../img/首页/buycart.png") no-repeat center;
+                    background: url("../../img/首页/buycart.png") no-repeat center;
                     position: relative;
                 }
                 li:nth-of-type(9) a p{ 
@@ -52,11 +52,11 @@ body{
                     position: absolute;
                     bottom:0;
                     left:9px;
-                    background:url("../img/首页/num-new.png") no-repeat;
+                    background:url("../../img/首页/num-new.png") no-repeat;
                 }
 
                 li:nth-of-type(10) a{
-                    background: url("../img/首页/person.png") no-repeat center;
+                    background: url("../../img/首页/person.png") no-repeat center;
                 }
         }
 
@@ -82,32 +82,68 @@ main{
             color:black;
             padding-left:40px;
         }
+
         .mdiv{
             overflow: hidden;
-            height:438px;
+            height:400px;
             background:white;
-            form{
-                margin-top:64px;
-                padding:0 300px;
-                input{
-                    width:340px;
-                    height:50px;
-                }
-                .text1{
-                    margin-bottom: 12px;
-                }
-                .text2{
-                    margin-bottom: 24px;
-                }
-                .button{
-                    width:342px;
-                    background:#2365a1;
-                    border:0;
-                }
-                p{
-                    height:40px;
+            padding:40px 220px 0px;
+            .mp2{
+                width:100%;
+                height:50px;
+                line-height:25px;
+                background:#eff3f8;
+                color:#2851cf;
+                text-align:center;
+            }
+            .mp3{
+                font-size: 16px;
+                margin-top:15px;
+                height:60px;
+                line-height:60px;
+                text-align:center;
+                color:#666666;
+
+            }
+            .form{
+                height:270px;
+                margin:0 auto;
+                padding:0 77px;
+                form{
+                    input{
+                        height:50px;
+                    }
+                    .text1{
+                        width:340px;
+                        margin-bottom: 12px;
+                        border:1px slolid #ccc;
+                    }
+                    .border{
+                        border:1px solid #ccc;
+                        height:50px;
+                        .text2{
+                            width:240px;
+                            height:48px;
+                            margin-bottom: 24px;
+                            border:0;
+                        }
+                        .button1{
+                            width:100px;
+                            height:50px;
+                            background:#2365a1;
+                            border:0;
+                            color:white;
+
+                        }
+                    }
+                    .button2{
+                        width:344px;
+                        background:#2365a1;
+                        border:0;
+                        text-align: center;
+                    }
                     a{
-                        color:#2365a1
+                        color:#2365a1;
                     }
                 }
             }
