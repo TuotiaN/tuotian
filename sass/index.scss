@@ -1,0 +1,243 @@
+@charset "utf-8";
+main{
+    height:3000px;
+    overflow: hidden;
+    .imdiv1{
+        height: 300px;
+        h2{
+            height:60px;
+            line-height:60px;
+            font-weight:3;
+            font-size: 28px;
+            border-bottom: 1px solid #ebf2f8;
+            span{
+                font-size:12px;
+                margin-left:10px 
+            }
+        }
+        div{
+            height:180px;
+            padding:35px 0;
+            border-bottom: 1px solid #ebf2f8;
+            dl{
+                padding:0px 34px;
+                dd{
+                    margin-top:20px;
+                    width:120px;
+                    text-align: center;
+                }
+            }
+            
+        }
+}
+.imdiv2{
+        height:430px;
+        h2{
+            margin-top:10px;
+            height:60px;
+            line-height:60px;
+            font-weight:3;
+            font-size: 28px;
+            span{
+                font-size:12px;
+                margin-left:10px 
+            }
+        }
+        .imboxall{
+            height:360px;
+            div{
+                padding:5px;
+                img{
+                    width:300px;
+                    height:320px;
+                }
+
+            }
+        }
+    }
+    .imdiv3{
+        height:900px;
+        background:#194b8a;
+        .w{
+            h2{
+                margin-top:10px;
+                height:60px;
+                line-height:60px;
+                font-weight:3;
+                color:white;
+                font-size: 28px;
+                border-bottom:1px solid white;
+                span{
+                    font-size:12px;
+                    margin-left:10px 
+                }
+            }
+            .im3box1{
+                height:370px;
+                dl{
+                    width:700px;
+                    margin-top:30px;
+                    height:340px;
+                    dd{
+                        padding-left:30px;
+                        width:320px;
+                        a{
+                            font-size: 30px;
+                            color:white;
+                        }
+                        p{
+                            margin-top:40px;
+                            font-size:26px;
+                            color:white;
+                        }
+                        #chakan{
+                            margin-top:50px;
+                            width:180px;
+                            height:30px;
+                            background:#f6b235;
+                            border:0;
+                        }
+                    }
+                }
+                .r{
+                    width:180px;
+                    height:70px;
+                    margin-top:50px;
+                    background:#1937a5;
+                    padding:8px;
+                    position: relative;
+                    border:1px solid #195b8a;
+                    p{
+                        height:28px;
+                        line-height:28px;
+                        font-size: 16px;
+                    }
+                    ul{
+                        li{
+                            line-height:18px;
+                            display:inline-block;
+                            padding:0 7px;
+                            border-right: 1px solid white;
+                            a{
+                                color:white;
+                            }
+                        }
+                        li:last-of-type{
+                            border-right:0;
+                        }
+                    }
+                    #queding{
+                        width:60px;
+                        height:20px;
+                        position: absolute;
+                        right:0;
+                        bottom:-40px;
+                        border:1px solid #73b7d8;
+                        background:white;
+                        color:#195b8a;
+                    }
+                }
+            }
+            .im3box2{
+                height:400px;
+                dl{
+                    margin:50px 66px 0px;
+                    dt{
+                        height:230px;
+                        p{
+                            width:180px;
+                            height:40px;
+                            color:white;
+                        }
+                    }
+                    dd{
+                        margin-top:20px;
+                        height:120px;
+                        width:180px;
+                        text-align: center;
+                        p{
+                            font-size:18px;
+                            color:white;
+                            margin-bottom: 10px;
+                        }
+                        a{ 
+                            color:white;
+                        }
+                    }
+                    
+                }
+            }
+
+            
+        }
+        
+    }
+    .imdiv4{
+        height:800px;
+        h2{
+            margin-top:10px;
+            height:60px;
+            line-height:60px;
+            font-weight:3;
+            font-size: 28px;
+            span{
+                font-size:12px;
+                margin-left:10px 
+            }
+        }
+        .im4box1{
+            height:700px;
+            .left{
+                height:800px;
+                width:360px;
+                padding:0 5px;
+                border:1px solid #cccbcb;
+                dl{
+                    height:120px;
+                    border-bottom: 1px solid #cccbcb;
+                    span{
+                        margin-top:47px;
+                        display:block;
+                        width:36px;
+                        line-height: 36px;
+                        height:36px;
+                        background:blue;
+                        text-align: center;
+                        
+                    }
+                    dt{
+                        width:120px;
+                        height:120px;
+                        img{
+                            width:120px;
+                            height:120px;
+                        }
+                    }
+                    dd{
+                        padding-top:50px;
+                        padding-left:10px;
+                        height:20px;
+                        width:180px;
+                    }
+                }
+            }
+            .right{
+                width:500px;
+                height:700px;
+                div{
+                    img{
+                        width:500px;
+                        height:260px;
+                    border:1px solid #cccbcb;
+                    }
+
+                }
+                .top{
+                    margin-bottom:30px;
+                }
+            }
+
+
+        }
+    }
+}

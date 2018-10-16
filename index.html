@@ -7,69 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sass/index.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <!--
-    <header>
-        <div class="box" >
-            <div id="lbt">
-                <nav class="navBox w">
-                    <h1 class="l"><a href="#"><img src="img/首页/logo.png" alt=""></a></h1>
-                    <ul class="navul l">
-                            <li class="l"><a href="#">精品闪惠</a></li>
-                            <li id="list" class="l"><a href="#">家用电器</a></li>
-                            <div class="erji">
-                                    <ul>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                    </ul>
-                            </div>
-                            <li id="huli" class="l"><a href="#">个人护理</a></li>
-                            <div id="huli1" class="erji">
-                                    <ul>
-                                        <li><span></span><a href="#">剃须刀附件
-                                        </a></li>
-                                        <li><span></span><a href="#">电动牙刷附件
-                                        </a></li>
-                                        <li><span></span><a href="#">净化器和加湿器滤网
-                                        </a></li>
-                                        <li><span></span><a href="#">厨房用品附件
-                                        </a></li>
-                                    </ul>
-                            </div>
-                            <li id="list" class="l"><a href="#">母婴系列</a></li>
-                            <div class="erji">
-                                    <ul>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                        <li><span></span><a href="#"></a></li>
-                                    </ul>
-                            </div>
-                            <li id="list" class="l"><a href="#">附件</a></li>
-                            <li id="list" class="l"><a href="#">专属定制</a></li>
-                            <li id="list" class="l"><a href="#">平板电脑</a></li>
-                            <li id="list" class="r"><a href="#"></a></li>
-                            <li id="list" class="r"><a href="#"></a></li>
-                            <li id="list" class="r"><a href="#"></a></li>
-                    </ul>
-                </nav>
-
-            </div>
-        </div>
-        <nav class="navBox"></nav>
-    </header>
--->
     <header>
         <div class="headall">
             <div id="lbt"></div>
         </div>
         <nav>    
             <div class="w">
-                <h1></h1>
+                <h1 id="logo"></h1>
                 <ul class="navul">
                     <li class="l"><a href="#">精品闪惠</a></li>
                     <li class="l"><a href="#">家用电器</a></li>
@@ -86,6 +34,170 @@
         </nav>
     </header>
 
+<!--------------------------main------------------>
+<main>
+    <div class="imdiv1 w">
+        <h2>热销精品<span>新科技改变您的生活</span></h2>
+        <div>
+            <dl class="imdl1 l">
+                <dt><img src="img/首页/imdl1.jpg"></dt>
+                <dd>
+                    <a href="#">
+                        飞利浦电动剃须刀星球大战系列 XZ5810/70
+                    </a>
+                </dd>
+            </dl>
+            <dl class="imdl2 l">
+                <dt><img src="img/首页/imdl2.jpg"></dt>
+                <dd>
+                    <a href="#">
+                        飞利浦 Sonicare声波震动牙刷 HX8962/05
+                    </a>
+                </dd>
+            </dl>
+            <dl class="imdl3 l">
+                <dt><img src="img/首页/imdl3.jpg"></dt>
+                <dd>
+                    <a href="#">
+                        飞利浦 全自动意式咖啡机 HD8824/07
+                    </a>
+                </dd>
+            </dl>
+            <dl class="imdl4 l">
+                <dt><img src="img/首页/imdl4.jpg"></dt>
+                <dd>
+                    <a href="#">
+                        飞利浦 空气净化器 AC4076/01
+                    </a>
+                </dd>
+            </dl>
+            <dl class="imdl5 l">
+                <dt><img src="img/首页/imdl5.jpg"></dt>
+                <dd>
+                    <a href="#">
+                        飞利浦 空气净化器 AC4076/01
+                    </a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div class="imdiv2 w">
+        <h2>明星产品<span>为您送出飞利浦的心意</span></h2>
+        <div class="imboxall">
+            <div class="l" id="">
+                <img src="img/首页/imdl6.jpg">
+            </div>
+            <div class="l" id="">
+                <img src="img/首页/imdl7.jpg">
+            </div>
+            <div class="l" id="">
+                <img src="img/首页/imdl8.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="imdiv3">
+        <div class="w">
+            <h2>精品推荐<span>推荐给您最值得拥有的精选商品</span></h2>
+            <div class="im3box1">
+                <dl class="l">
+                    <dt class="l"><img src="img/首页/sp7.jpg"></dt>
+                    <dd class="l">
+                        <a href="#">飞利浦 全能厨师机 HR7955/01</a> 
+                        <p>¥3599.10</p>
+                        <input type="button" value="立即查看" id="chakan">
+                    </dd>
+                </dl>
+                <div class="r">
+                    <p>热卖商品类型选择</p>
+                    <ul>
+                        <li><a href="#">系列剃须刀</a></li>
+                        <li><a href="#">电动牙刷</a></li>
+                        <li><a href="#">自然原生系列</a></li>
+                        <li><a href="#">洁肤仪</a></li>
+                    </ul>
+                    <input type="button" value="确定" id="queding">
+                </div>
+
+
+            </div>
+            <div class="im3box2">
+                <dl class="l">
+                    <dt>
+                        <p>飞利浦 钻石亮白型声波震动牙刷 黑钻版 HX9352/04</p>
+                        <img src="img/首页/sp9.jpg">
+                    </dt>
+                    <dd>
+                        <p>价格:¥<span>1599.00</span></p>
+                        <a href="#">立即查看</a>
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dt>
+                        <p>飞利浦 净化器 AC6608/00</p>
+                        <img src="img/首页/sp13.jpg">
+                    </dt>
+                    <dd>
+                        <p>价格:¥<span>4949.10</span></p>
+                        <a href="#">立即查看</a>
+                    </dd>
+                </dl>
+                <dl class="l">
+                    <dt>
+                        <p>飞利浦 男士洁肤仪 MS5031/00</p>
+                        <img src="img/首页/sp12.jpg">
+                    </dt>
+                    <dd>
+                        <p>价格:¥<span>899.10</span></p>
+                        <a href="#">立即查看</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="imdiv4 w">
+            <h2>最热排行<span>本周顾客最爱的飞利浦产品</span></h2>
+            <div class="im4box1">
+                <div class="left l">
+                    <dl>
+                        <span class="l">1</span>
+                        <dt class="l"><img src="img/首页/sp4.jpg"></dt>
+                        <dd class="l"><a href="#">飞利浦 干湿两用电动剃须刀 S5077/03
+</a></dd>
+                    </dl>
+                     <dl>
+                        <span class="l">2</span>
+                        <dt class="l"><img src="img/首页/sp6.jpg"></dt>
+                        <dd class="l"><a href="#">飞利浦 电吹风 BHC202/05
+</a></dd>
+                    </dl>
+                    <dl>
+                        <span class="l">3</span>
+                        <dt class="l"><img src="img/首页/sp16.jpg"></dt>
+                        <dd class="l"><a href="#">飞利浦 Sonicare声波震动牙刷 HX8962/05
+</a></dd>
+                    </dl>
+                    <dl>
+                        <span class="l">4</span>
+                        <dt class="l"><img src="img/首页/sp10.jpg"></dt>
+                        <dd class="l"><a href="#">飞利浦 超音波美肤滋养仪 SC2800/00
+</a></dd>
+                    </dl>
+                    <dl> 
+                        <span class="l">5</span>
+                        <dt class="l"><img src="img/首页/sp11.jpg"></dt>
+                        <dd class="l"><a href="#">飞利浦 干湿两用脱毛器 BRE630/00</a></dd>
+                    </dl>
+    
+            </div>
+                <div class="right r">
+                    <div class="top"></div><img src="img/首页/sp1.jpg"</div>
+                    <div class="bottom"></div> <img src="img/首页/sp3.jpg"</div>
+                </div>
+    </div>
+</main>
 
 <!----------------footer-------------------->
         <div class="footer1">
@@ -204,10 +316,14 @@
 
 <script>
 
-	window.onload = function(){
+	$(function(){
 		let s1 = new Slider($("#lbt"),1414,615,["img/首页/lbt1.jpg","img/首页/lbt2.jpg","img/首页/lbt3.jpg"],
 				19,"#d7d7d7","blue",
                 true,-1,1500);
+        $("#logo").click(function () {
+            $(location).attr('href', 'guanwang.html')
+        });
+        
         $("#huli").mouseover(function(){
             $("#huli1").slideToggle(function(){
                 $("#huli1").css({
@@ -215,10 +331,10 @@
                 });
             });
         });
-    $("#huli").mouseout(function(){
+        $("#huli").mouseout(function(){
            $("#huli1").css({display:"none"});
 
     });
-    }
+    });
 
 </script>

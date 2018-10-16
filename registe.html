@@ -12,7 +12,7 @@
 <body>
     <div id="header">
         <div class="w">
-            <h1 class="l"></h1>
+            <h1 class="l" id="logo"></h1>
             <ul class="navul l">
                 <li class="l"><a href="#">精品闪惠</a></li>
                 <li class="l"><a href="#">家用电器</a></li>
@@ -160,4 +160,10 @@
 </html>
 <script src="js/jquery-1.8.3.min.js"></script>
 <script>
+    $(function(){
+        $("#logo").click(function(){
+            $(location).attr('href', 'guanwang.html')
+        }
+        )
+    });
 </script>
