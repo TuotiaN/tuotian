@@ -1,0 +1,99 @@
+@charset "utf-8";
+main{
+    overflow: hidden;
+    padding:50px;
+    height:650px;
+    background:white;
+    .left{
+        margin-right:30px;
+        width:400px;
+        height:600px;
+       .img1{
+           width:370px;
+           height:370px;
+           border:1px solid #ccc;
+           img{
+               width:370px;
+               height:370px;
+           }
+       }
+       .img2{
+           margin-top:30px;
+           margin-left:50px;
+           width:80px;
+           height:80px;
+           border:1px solid #ccc;
+           img{
+               width:80px;
+               height:80px;
+           }
+       }
+    }
+    .right{
+        width:500px;
+        height:600px;
+        .rh1{
+            height:40px;
+            padding-left:20px;
+        }
+        .rp1{
+            height:30px;
+            line-height: 30px;
+            background:#f1f1f1;
+            padding-left:20px;
+        }
+        .rh2{
+            height:50px;
+            line-height:50px;
+            color:#022d93;
+            font-size: 24px;
+            padding-left:20px;
+            
+        }
+        .rp2{
+            height:40px;
+            line-height: 40px;
+            background:#022d93;
+            padding-left:20px;
+            color:white;
+            font-size: 14px;
+            span{
+                font-size: 18px;
+            }
+        }
+        .rp3{
+            height:30px;
+            line-height:30px;
+            padding-left:20px;
+        }
+        .rp4{
+            height:30px;
+            line-height:30px;
+            padding-left:20px;
+            input{
+                width:30px;
+            }
+        }
+        .buttonl,.buttonm,.buttonr{
+            height:30px;
+            width:120px;
+            background:#c9c9c9;
+            border:0;
+            margin:0 7px;
+            margin-top:10px;
+        }
+        .rp5{
+            margin-top:20px;
+            height:100px;
+            line-height:25px;
+            color:red;
+        }
+        .fenxiang{
+            height:40px;
+            border-top:1px dashed #ccc;
+            border-bottom: 1px dashed #ccc;
+            margin-top:20px;
+            padding:30px 10px 30px;
+        }
+    }
+}

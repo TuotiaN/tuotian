@@ -1,11 +1,68 @@
 @charset "utf-8";
-.h{
-    height: 20px;
-    .dd{
-        height:80px;
-        #tt{
-            background-attachment: fixed;
+body{
+    background:url("../../img/首页/bg.jpg") no-repeat;
+    background-size:cover;
+
+}
+#header{
+    width: 100%;
+    height:170px;
+    .w{
+        margin-top:20px;
+        height:150px;
+        h1{
+            width:150px;
+            height:150px;
+            display: block;
+            background: url("../../img/首页/logo.png");
+
+        
         }
+        .navul{
+            float:right;
+            height:36px;
+            margin-top:7px;
+            line-height:36px;
+            border-bottom:1px solid #bac4d2;  
+                .l{
+                padding-right:20px;
+                }
+                .r{
+                    width:30px;
+                    height:36px;
+                }
+                li a{
+                    display:block;
+                    border-bottom:0;
+                }
+                .r a{
+                    width:30px;
+                    height:36px;
+                }
+                li:nth-of-type(10){
+                    margin-left:160px;
+                }
+                li:nth-of-type(8) a{
+                    background: url("../../img/首页/zoom.png") no-repeat center;
+                }
+                li:nth-of-type(9) a{
+                    background: url("../../img/首页/buycart.png") no-repeat center;
+                    position: relative;
+                }
+                li:nth-of-type(9) a p{ 
+                    width:19px;
+                    height:13px;
+                    position: absolute;
+                    bottom:0;
+                    left:9px;
+                    background:url("../../img/首页/num-new.png") no-repeat;
+                }
+
+                li:nth-of-type(10) a{
+                    background: url("../../img/首页/person.png") no-repeat center;
+                }
+        }
+
     }
 }
 

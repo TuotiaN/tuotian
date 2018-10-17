@@ -1,6 +1,6 @@
 @charset "utf-8";
 main{
-    height:3000px;
+    height:2500px;
     overflow: hidden;
     .imdiv1{
         height: 300px;
@@ -186,14 +186,14 @@ main{
             }
         }
         .im4box1{
-            height:700px;
+            height:750px;
             .left{
-                height:800px;
+                height:700px;
                 width:360px;
                 padding:0 5px;
                 border:1px solid #cccbcb;
                 dl{
-                    height:120px;
+                    height:140px;
                     border-bottom: 1px solid #cccbcb;
                     span{
                         margin-top:47px;
@@ -201,13 +201,15 @@ main{
                         width:36px;
                         line-height: 36px;
                         height:36px;
-                        background:blue;
+                        color:white;
+                        background:#2576a8;
                         text-align: center;
                         
                     }
                     dt{
                         width:120px;
                         height:120px;
+                        margin-top:10px;
                         img{
                             width:120px;
                             height:120px;
@@ -218,22 +220,35 @@ main{
                         padding-left:10px;
                         height:20px;
                         width:180px;
+                        a{
+                            font-weight:bold;
+                            font-size: 14px;
+                        }
                     }
+                }
+                .lastdl{
+                    border-bottom:none;
                 }
             }
             .right{
                 width:500px;
                 height:700px;
                 div{
+                        height:320px;
+                        border:1px solid #cccbcb;
                     img{
                         width:500px;
                         height:260px;
-                    border:1px solid #cccbcb;
+                    }
+                    p{
+                        height:60px;
+                        line-height:60px;
+                        padding-left:30px;
                     }
 
                 }
                 .top{
-                    margin-bottom:30px;
+                    margin-bottom:55px;
                 }
             }
 
